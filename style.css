@@ -1,0 +1,185 @@
+html { 
+	background: url(https://img.freepik.com/free-photo/red-abstract-gradient-background-horizontal-speed-motion-effect_41691-707.jpg?size=626&ext=jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: 100% 100%;
+}
+
+.logo {
+	margin-right: 10px;
+}
+
+.navbar-collapse, .navbar-brand, .navbar-expand-lg, .navbar-light, .bg-light {
+	font-family: Castellar;
+	background-color: #560101 !important;
+	border-color: orange;
+	padding: 0px 0px 0px 5px;
+	color: #fff !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.nav-link {
+	color: #fff !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+body {
+	background-color: transparent;
+}
+
+.nav-link:hover {
+	background-color: #2F0404 !important;
+	border-color: #2F0404;
+	transition: all 0.5s;
+}
+
+/*h1 {
+	padding: 100px 0px;
+	background-image: url("zBTfWC2.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-size: 100% 100%;	
+}*/
+
+.header {
+	display: inline-block;
+	background-color: #020000;
+	height: 100px;
+	width: 100%;
+}
+
+.runescape {
+	display:inline-block;
+	height:200px; 
+	position: fixed;  
+	left: 50%; 
+	margin-left: -125px;
+}
+
+.loginbanner {
+	/*font-size: 2vw;*/
+	font-size: calc(12px + 1.2vw);
+	padding-top: 15px;
+	text-align: center;
+	font-family: Castellar;
+	color: #fff !important;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+form {
+	margin: 0 auto;
+	max-width: 500px;
+	color: #fff !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.form-group {
+	text-align: center;
+	background-color: #560101;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 20px;
+	font-family: Castellar;
+}
+
+.text-muted {
+	color: #fff !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.btn-primary {
+	font-family: Castellar;
+	background-color: #560101;
+	border-color: #560101;
+	margin: 0 auto;
+	display: block;
+}
+
+.btn-primary:hover {
+	background-color: #2F0404;
+	border-color: #2F0404;
+	transition: all 0.5s;
+	transform: scale(1.1);
+}
+
+.features-title {
+	font-family: Castellar;
+	text-align: center;
+	margin-top: 10px;
+/*	justify-content: center;
+	width: 50%;
+	border-bottom: 5px solid #111;
+*/	color: #fff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.ul-features {
+	font-family: Castellar;
+	justify-content: center;
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	color: #fff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fossil-mining {
+	float: left;
+	margin: 20px 20px;
+	border-radius: 50px;
+	border: 5px solid #000;
+	max-width: 25vw;
+	max-height: 25vw;
+}
+
+.fossil-mining2 {
+	float: left;
+	margin: 20px 20px;
+	border-radius: 50px;
+	border: 5px solid #000;
+	max-width: 25vw;
+	max-height: 25vw;
+}
+
+.silk-stall {
+	float: right;
+	margin: 20px 20px;
+	border-radius: 50px;
+	border: 5px solid #000;
+	max-width: 25vw;
+	max-height: 25vw;
+}
+
+.silk-stall2 {
+	float: left;
+	margin: 20px 20px;
+	border-radius: 50px;
+	border: 5px solid #000;
+	max-width: 25vw;
+	max-height: 25vw;
+}
+
+.fossil-mining:hover, .silk-stall:hover {
+	transition: all 0.5s;
+	transform: scale(1.1);
+}
+
+footer {
+	font-family: Castellar;
+	display: block;
+	font-size: 14px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background: #111;
+    color: #fff;
+}
