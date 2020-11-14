@@ -7,6 +7,12 @@ html {
 	background-size: 100% 100%;
 }
 
+@media(min-width: 1200px) {
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+	max-width: 80%
+}
+}
+
 .logo {
 	margin-right: 10px;
 	padding: 0px 0px;
@@ -22,16 +28,18 @@ html {
 	border-color: orange;
 	padding: 0px 0px 0px 5px;
 	color: #fff !important;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .nav-link {
 	color: #fff !important;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 body {
 	background-color: transparent;
+	font-family: Castellar;
+	color: #fff;
 }
 
 .nav-link:hover {
@@ -49,6 +57,10 @@ body {
 	background-size: cover;
 	background-size: 100% 100%;	
 }*/
+
+h1 {
+	font-size: 1.5rem;
+}
 
 .header {
 	display: inline-block;
@@ -72,17 +84,17 @@ body {
 	text-align: center;
 	font-family: Castellar;
 	color: #fff !important;
-	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 }
 
 form {
 	margin: 0 auto;
 	max-width: 500px;
 	color: #fff !important;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
-.form-group {
+.form-group, h1 {
 	text-align: center;
 	background-color: #560101;
 	padding: 10px;
@@ -97,7 +109,7 @@ form {
 
 .text-muted {
 	color: #fff !important;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .btn-primary {
@@ -106,6 +118,7 @@ form {
 	border-color: #560101;
 	margin: 0 auto;
 	display: block;
+	border-radius: 15px;
 }
 
 .btn-primary:hover {
@@ -123,7 +136,7 @@ form {
 	width: 50%;
 	border-bottom: 5px solid #111;
 */	color: #fff;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .ul-features {
@@ -133,7 +146,7 @@ form {
 	width: 40%;
 	text-align: center;
 	color: #fff;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .fossil-mining {
@@ -143,6 +156,7 @@ form {
 	border: 5px solid #000;
 	max-width: 25vw;
 	max-height: 25vw;
+	width: auto;
 }
 
 .fossil-mining2 {
@@ -152,6 +166,7 @@ form {
 	border: 5px solid #000;
 	max-width: 25vw;
 	max-height: 25vw;
+	width: auto;
 }
 
 .silk-stall {
@@ -161,6 +176,7 @@ form {
 	border: 5px solid #000;
 	max-width: 25vw;
 	max-height: 25vw;
+	width: auto;
 }
 
 .silk-stall2 {
@@ -170,11 +186,42 @@ form {
 	border: 5px solid #000;
 	max-width: 25vw;
 	max-height: 25vw;
+	width: auto;
 }
 
 .fossil-mining:hover, .silk-stall:hover {
 	transition: all 0.5s;
 	transform: scale(1.1);
+}
+
+.img-fluid {
+	border-radius: 15px;
+}
+
+.col-lg-5 {
+	text-align: center;
+}
+
+.card {
+	background-color: #000;
+	border-width: 3px;
+}
+
+.card-body {
+	display: flex;
+	justify-content: center;
+	background-color: #2F0404;
+	padding: 0px;
+	/*width: 100%;*/
+}
+
+.card-footer {
+	background-color: #000;
+	text-align: center;
+}
+
+.clicker-hooks {
+	margin: 0;
 }
 
 footer {
@@ -188,7 +235,9 @@ footer {
 	height: 40px;
 	line-height: 40px;
 	text-align: center;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
     background: #111;
     color: #fff;
+	word-wrap: break-word;
+
 }
