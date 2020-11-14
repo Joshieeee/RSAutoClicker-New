@@ -29,19 +29,16 @@ html {
 	border-color: orange;
 	padding: 0px 0px 0px 5px;
 	color: #fff !important;
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .nav-link {
 	color: #fff !important;
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 body {
 	background-color: transparent;
 	font-family: Castellar;
 	color: #fff;
-	height: 100%;
 }
 
 .nav-link:hover {
@@ -76,14 +73,12 @@ body {
 	text-align: center;
 	font-family: Castellar;
 	color: #fff !important;
-	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 }
 
-form {
+.home-form {
 	margin: 0 auto;
 	max-width: 500px;
 	color: #fff !important;
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .form-group, .loginbanner, .featuresbanner, .donate-h1 {
@@ -120,15 +115,19 @@ form {
 	transform: scale(1.1);
 }
 
+.features-body {
+	align-items: center;
+}
+
+.features-container {
+	align-content: center;
+}
+
 .features-title {
 	font-family: Castellar;
 	text-align: center;
 	margin-top: 10px;
-/*	justify-content: center;
-	width: 50%;
-	border-bottom: 5px solid #111;
-*/	color: #fff;
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+	color: #fff;
 }
 
 .ul-features {
@@ -138,7 +137,6 @@ form {
 	width: 40%;
 	text-align: center;
 	color: #fff;
-	/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 }
 
 .fossil-mining {
@@ -188,6 +186,7 @@ form {
 
 .img-fluid {
 	border-radius: 15px;
+	width: 700px;
 }
 
 .col-lg-5 {
@@ -204,12 +203,15 @@ form {
 	justify-content: center;
 	background-color: #2F0404;
 	padding: 0px;
-	/*width: 100%;*/
 }
 
 .card-footer {
 	background-color: #000;
 	text-align: center;
+	min-height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .clicker-hooks {
@@ -218,21 +220,63 @@ form {
 
 .pay-pal-logo {
 	width: 20vw;
+	min-width: 200px;
 	border-radius: 15px;
 	border: 3px solid #000;
 }
 
 .donate-body {
-	height: 100%;
+	position: absolute;
+	top:40px;
+	bottom: 0;
+	right:0;
+	left:0;
 	display: flex;
-	align-items: center;
+	align-content: center;
 	justify-content: center;
 	flex-wrap: wrap;
 	margin: auto auto;
-	width:75vw;
+	width:30vw;
 }
 
-.donate-h1 {
+.donate-p {
+	min-width: 250px;
+	text-align: center;
+}
+
+.contactus-form {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-email {
+	width: 40vw;
+	min-width: 250px;
+	max-width: 550px;
+}
+
+.contact-text-area {
+	width: 60vw;
+	min-width: 250px;
+	/*height: 400px;*/
+}
+
+.contact-image-container {
+	width: 100vw;
+}
+
+.contact-image {
+	text-align: center;
+	margin: auto auto;
+	display: flex;
+	align-content: center;
+}
+
+.btn-contact-submit {
+	display: flex;
+	justify-content: flex-start;
 }
 
 footer {
